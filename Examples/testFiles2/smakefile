@@ -1,0 +1,13 @@
+# Mon binaire s’appelle f 
+E autosmake
+# Il y a trois fichiers sources 
+C linesBin.c parser.c
+C main.c process.c
+# et un fichier d’entête 
+H linesBin.h parser.h
+H process.h
+# j’utilise la bibliothèque mathématique 
+#B -lm
+# et je souhaite débugger mon programme 
+F -g
+F -Wall

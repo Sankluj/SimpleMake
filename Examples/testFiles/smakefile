@@ -1,0 +1,12 @@
+# Mon binaire s’appelle f 
+E f
+# Il y a trois fichiers sources 
+C f.c f2.c
+# et un fichier d’entête 
+H f.h
+H f2.h
+# j’utilise la bibliothèque mathématique 
+B -lm
+# et je souhaite débugger mon programme 
+F -g
+F -Wall
